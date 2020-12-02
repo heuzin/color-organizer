@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StartRatingApp from './components/StartRatingApp';
+import App from './components/App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <StartRatingApp />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )
